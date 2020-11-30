@@ -4,7 +4,6 @@
 <?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Box?>
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
@@ -15,6 +14,5 @@
         </buttons>
       </ButtonBar>
       <TextArea fx:id="something" prefHeight="200.0" prefWidth="200.0" />
-      <Box fx:id="TERNING" depth="100" height="100" width="100.0" />
    </children>
 </VBox>
